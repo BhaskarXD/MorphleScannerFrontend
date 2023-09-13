@@ -1,0 +1,53 @@
+.grid-container {
+  display: flex;
+  flex-direction: column; /* Stack rows vertically */
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  height: 30px;
+  width: 30px;
+  flex: 1; 
+  box-sizing: border-box;
+}
+
+.cell.UNVISITED {
+  background-color:#BDBDBD;
+  border: 2px solid #9E9E9E;
+}
+
+.cell.VISITED {
+  background-color: #ffeb3bc6;
+  border: 2px solid #FFC107;
+}
+
+.cell.FOCUSING {
+  background-color: #81D4FA;
+  border: 2px solid #0288D1;
+}
+
+.cell.FOCUSED {
+  background-color: #1175c7;
+  border: 2px solid #1565C0;
+}
+
+.cell.CAPTURING {
+  background-color: #69bd6d;
+  border: 2px solid #43A047;
+}
+
+.cell.CAPTURED {
+  background-color:#0fad15;
+  border: 2px solid #388E3C;
+}
+
+.cell.current-cell {
+  border: 2px solid rgb(159, 1, 1); 
+}

@@ -1,0 +1,9 @@
+.heading {
+    font-family: 'Cursive', sans-serif; /* Use a fancy font */
+    font-size: 50px;
+    color: #2e3a52; /* Dark blue color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin-bottom: 40px;
+    text-align: center; /* Center the text */
+}
+  
