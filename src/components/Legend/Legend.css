@@ -1,0 +1,29 @@
+.legend-container {
+    margin-top: 20px;
+  }
+  
+  .legend-color {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #000;
+  }
+  
+  .red { background-color: red; }
+  .grey { background-color: grey; }
+  .yellow { background-color: yellow; }
+  .light-blue { background-color: lightblue; }
+  .dark-blue { background-color: darkblue; }
+  .light-green { background-color: lightgreen; }
+  .dark-green { background-color: darkgreen; }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
