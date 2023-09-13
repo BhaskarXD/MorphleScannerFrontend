@@ -11,6 +11,35 @@ Technologies Used
 React.js: A powerful JavaScript library for building interactive user interfaces.
 CSS: Cascading Style Sheets for styling and customizing the appearance of the grid and its elements.
 
+---
+
+# Matrix/Grid Color Legend
+
+- **Current Cell**:
+  - Represented by a **red border**. This indicates the cell that is currently selected or in focus.
+
+- **Unvisited**:
+  - Displayed in **grey**. These cells have not been interacted with or observed.
+
+- **Visited (Not Focused/Captured)**:
+  - Displayed in **yellow**. These cells have been visited, but no specific action (focus or capture) has been performed on them.
+
+- **Focusing**:
+  - Displayed in **light blue**. This indicates that the camera is in the process of focusing on this cell.
+
+- **Focused**:
+  - Displayed in **dark blue**. This indicates that the camera has successfully focused on this cell and is ready for capture.
+
+- **Capturing**:
+  - Displayed in **light green**. This signifies that the camera is currently capturing an image of this cell.
+
+- **Captured**:
+  - Displayed in **dark green**. This indicates that the camera has successfully captured an image of this cell.
+
+---
+
+This color legend provides a visual reference for the different states and actions associated with cells in the grid, enhancing user understanding and interaction with the Morphle Scanner application.
+
 --
 # Improvements
 
