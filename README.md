@@ -40,7 +40,8 @@ CSS: Cascading Style Sheets for styling and customizing the appearance of the gr
 
 This color legend provides a visual reference for the different states and actions associated with cells in the grid, enhancing user understanding and interaction with the Morphle Scanner application.
 
---
+---
+
 # Improvements
 
 ## Frontend
